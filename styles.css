@@ -1,3 +1,40 @@
 body{
-    background-color: rgb(170, 203, 170);
+    background-color: rgb(196, 213, 196);
 }
+.content{
+	width:1470px; float:left; margin:0 20px 0 20px;
+}
+.textcols {
+	overflow: hidden;
+}
+.textcols-left {
+	float: left;
+	width: 50%;
+}
+.textcols-right {
+	margin-left: 52%;
+}
+        .post-main{
+            background:#e6e2e7;  border:1px solid #c8bfc4; margin:0 0 20px 0;
+            border-radius:7px;
+        }
+        
+        .post-main h1{
+             font:normal 18px "Arial Regular"; background:#cfc7ce;
+             border-radius:7px 7px 0 0;
+             padding: 5px 20px 8px 15px; margin: 0 0 5px 0;
+            }
+         .post-main h1 a{
+			font:normal 20px "Arial Regular"; color:#c11212; text-decoration:underline;
+		    }
+        .post{
+             margin:0 15px 15px 15px;
+        }
+        .post p{
+            font:normal 16px "Arial Regular"; color:#4c3041; margin:0 0 15px 0;
+        }
+        .post p a{
+            font:normal 14px "Arial Regular"; color:#876479; padding:15px 15px 0 0; text-decoration:underline;
+            }
+        
+        
