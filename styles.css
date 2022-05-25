@@ -18,8 +18,9 @@ body{
             background:#e6e2e7;  border:1px solid #c8bfc4; margin:0 0 20px 0;
             border-radius:7px;
         }
+        
         .post-main h1{
-            font:normal 18px "Arial Regular"; color:; background:#cfc7ce;
+             font:normal 18px "Arial Regular"; background:#cfc7ce;
              border-radius:7px 7px 0 0;
              padding: 5px 20px 8px 15px; margin: 0 0 5px 0;
             }
