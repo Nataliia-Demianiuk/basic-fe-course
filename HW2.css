@@ -1,0 +1,31 @@
+body{
+    background-color: fff(196, 213, 196); 
+ }
+ .content{
+     width:1000px; float:left; margin: 0 100px 50px 100px;
+ }   
+ 
+ .heads {
+    font-family:  'Josefin Sans' sans-serif;
+ }
+ .image {
+    height: 200px;
+ }
+ .head a{
+    margin: 0; padding: 0;
+ }
+ h2{
+    margin: 0; padding: 0;
+ }
+ footer{
+   display: inline; width: 1000px; height: 100px; margin: 20px 20px 20px 20px; padding: 10px 10px 10px 10px;
+ }
+ a href {
+    font: 18px "Arial Regular"; color:rgb(19, 19, 59)
+ }
+ .autor{
+    display: inline; float: left; width: 25%; margin: 0 0 0 40px;
+ }
+ .information{
+  display: inline; float: right; width: 75%; margin: 0 -100px 0 0  ;
+ }
