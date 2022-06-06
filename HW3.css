@@ -58,11 +58,11 @@ body {
     transition-duration: 0.4s;
     cursor: pointer;
     font-family: 'Inter';
-font-style: normal;
-font-weight: 600;
-font-size: 12px;
-line-height: 20px; color: #FFFFFF;
-padding: 0px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 20px; color: #FFFFFF;
+    padding: 0px;
 }
 .head button:hover {
     margin: 15px 25px 0 30px;
@@ -72,11 +72,11 @@ padding: 0px;
     transition-duration: 0.4s;
     cursor: pointer;
     font-family: 'Inter';
-font-style: normal;
-font-weight: 600;
-font-size: 12px;
-line-height: 20px; color: #FFFFFF;
-padding: 0px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 20px; color: #FFFFFF;
+    padding: 0px;
      
 }
 
