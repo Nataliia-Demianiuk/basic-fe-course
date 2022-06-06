@@ -9,8 +9,8 @@ body {
 }
 .main{
     position: absolute;
-    width: 800px;
-    height: 1090px;
+    width: 1488px;
+    height: 1430px;
     left: 24px;
     top: 28px;
     background: #E5E5E5; border: 1px solid rgb(63, 186, 223);
@@ -19,7 +19,7 @@ body {
     font: 12px 'Roboto', sans-serif;
 }
 .head   {
-    Height:62px; width: 750px;;
+    Height:72px; width: 1440px;;
     background: #0B2239;
     margin: 28px 24px 0 24px; padding: 0;
     display: flex;
@@ -27,9 +27,13 @@ body {
 }
     
 .text {
-    width: 450px; height: 20px;
-    margin: 19px; padding: 0;
-    font: 10px 'Roboto', sans-serif;
+    width: 922px; height: 40px;
+    margin: 1.1% 0 0 10%; padding: 0;
+    font-family:  'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 20px;
     color: white;
  }
    
@@ -38,28 +42,41 @@ body {
     flex-direction: row;
     align-items: flex-start;
     margin: 24px 15px 0 10px;
-     height: 20px;
+    width: 86px; height: 20px;
     color: #4AD295; text-decoration-line: underline;
-    font: 10px 'Roboto', sans-serif;
+    font-family: 'Inter';
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 20px;
    
 }
 .head button {
     margin: 15px 25px 0 30px;
-    width: 90px; height: 30px;
+    width: 125px; height: 40px;
     background-color: #4AD295; 
     text-align: center;
     transition-duration: 0.4s;
     cursor: pointer;
-    font: 10px 'Roboto', sans-serif; color: #FFFFFF;
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 12px;
+line-height: 20px; color: #FFFFFF;
+padding: 0px;
 }
 .head button:hover {
     margin: 15px 25px 0 30px;
-    width: 90px; height: 30px;
+    width: 125px; height: 40px;
     background-color: #226748; 
     text-align: center;
     transition-duration: 0.4s;
     cursor: pointer;
-    font: 10px 'Roboto', sans-serif; color: #FFFFFF;
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 12px;
+line-height: 20px; color: #FFFFFF;
+padding: 0px;
      
 }
 
@@ -67,15 +84,23 @@ body {
    
 .top{
     display: flex;
-    Width: 750px; Height: 46px;
+    Width: 1440px; Height: 52px;
     margin: 20px 24px 0 24px; padding: 0;
     background: #2B2627;
     color: white;
     text-align: center;
 }
 .text2{
-    margin: 0 0 0 50px;
-    font: 12px 'Roboto', sans-serif;
+    margin: 0 0 0 24%;
+    width: 731px;
+height: 20px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 13px;
+line-height: 20px;
+color: #FFFFFF;
 }
 .our {
     text-decoration-line: underline;  
@@ -100,12 +125,18 @@ body {
     flex-direction: row;
     align-items: flex-start; 
     margin: 12px 0 0 0;
-    font: 10px 'Roboto', sans-serif;
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 20px;
     
 }
 .text3 p {
-    margin: 16px 0 0 0;
-    font: 10px 'Roboto', sans-serif;
+    width: 347px;
+height: 40px;
+    margin: 5px 0 0 10px;
+    
 }
 .text3 img {
     display: inline-flex;
@@ -119,7 +150,7 @@ body {
 }
 .button1 {
     width: 63px; height: 28px; background-color: rgba (13, 12, 34, 0.05); border: none; 
-    margin: 12px 0 0 10px;
+    margin: 12px 0 0 -18px;
     text-align: center;
     transition-duration: 0.4s;
     cursor: pointer;  
@@ -128,7 +159,7 @@ body {
 .button1:hover {
     width: 63px; height: 28px; background-color: gray; border: none;
     color: #FFFFFF;
-    margin: 12px 0 0 10px;
+    margin: 12px 0 0 -18px;
     text-align: center;
     transition-duration: 0.4s;
     cursor: pointer; 
@@ -136,7 +167,7 @@ body {
 } 
 .button2 {
     width: 52px; height: 28px; background-color: #EA4C89; border: none; border-radius: 8px;
-    margin: 12px 6px 0 10px;
+    margin: 12px 6px 0 15px;
     text-align: center;
     transition-duration: 0.4s;
     cursor: pointer;  
@@ -145,7 +176,7 @@ body {
 .button2:hover {
     width: 52px; height: 28px; background-color: #381523; border: none; border-radius: 8px;
     color: #FFFFFF;
-    margin: 12px 6px 0 10px;
+    margin: 12px 6px 0 15px;
     text-align: center;
     transition-duration: 0.4s;
     cursor: pointer;   font: 10px 'Roboto', sans-serif;
@@ -164,24 +195,31 @@ body {
         flex-direction: row;
         align-items: flex-start;
         font-size: 11px;
-        margin: 12px 0 0 10px;
-        font: 10px 'Roboto', sans-serif;
+        margin: 0 0 0 20px;
+        width: 469px;
+height: 40px;
+
+font-family: 'Avenir LT Std';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 20px;
 }
 .policy {
     color: orange;
 }
 .button3 {
-    width: 49px; height: 28px; background-color: #FFFFFF; border: none; border-radius: 8px;
-    margin: 9px 16px 0 10px;
+    width: 79px; height: 28px; background-color: #FFFFFF; border: none; border-radius: 8px;
+    margin: 18px -22px 0 10px;
     text-align: center;
     transition-duration: 0.4s;
     cursor: pointer;   
     font: 10px 'Roboto', sans-serif;
 }
 .button3:hover {
-    width: 49px; height: 28px; background-color: gray; border: none; border-radius: 8px;
+    width: 79px; height: 28px; background-color: gray; border: none; border-radius: 8px;
     color: #FFFFFF;
-    margin: 9px 16px 0 10px;
+    margin: 18px -22px 0 10px;
     text-align: center;
     transition-duration: 0.4s;
     cursor: pointer;   font: 10px 'Roboto', sans-serif;
@@ -281,13 +319,15 @@ font: 10px 'Roboto', sans-serif;
   display: inline-block;
   transition-duration: 0.4s;
      cursor: pointer;
-     margin: 20px;
+     margin: 10px 0 0 0;
+     width: 49%;
      
 }
 .button33 {
     display: inline-block;
     text-align: center;
     margin: 20px;
+    
 }
 .button11 {
      
