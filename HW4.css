@@ -148,7 +148,7 @@ top: 22px;
 .contact {
     width: 720px; height: 500px;
     text-align: left;
-    margin: 20px 0 0 0;
+    margin: 0;
 }
 .contact h1 {
     position: relative;
@@ -166,7 +166,7 @@ margin: 116px 0 0 176px;
     position: relative;
     width: 434px;
     height: 64px;
-    margin: 35px 0 0 176px;
+    margin: 50px 0 0 176px;
     
     font-family: 'Lato';
     font-style: normal;
@@ -229,7 +229,7 @@ padding: 21px;
 position: absolute;
 width: 540px;
 height: 60px;
-margin: 200px 0 0 10px;
+margin: 203px 0 0 10px;
 border: 1px solid #333333;
 border-radius: 6px;
 font-family: 'Lato';
@@ -246,7 +246,7 @@ padding: 21px;
     position: absolute;
     width: 540px;
     height: 60px;
-    margin: 284px 0 0 10px;
+    margin: 290px 0 0 10px;
     border: 1px solid #333333;
     border-radius: 6px;
     font-family: 'Lato';
@@ -263,7 +263,7 @@ padding: 21px;
     position: relative;
 width: 160px;
 height: 50px;
-    top: 365px;
+    top: 377px;
     left: 10px;
     background: #ED4C5C; color: white;
 border: 1.5px solid #ED4C5C;
@@ -291,31 +291,99 @@ line-height: 17px;
     position: absolute;
     width: 1440px; height: 350px;
     left: 170px;
+    padding: 85px 0 0 0;
+}
+.address h3{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    color: #101010;
+}
+.address p {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 150%;
+    color: #101010;
 }
 .services {
     position: relative;
-    right: -100px;
+    right: -135px;
+    
+}
+.services h3{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    color: #101010;
 }
 .services a {
     color: #000000;
     text-decoration: none;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 160%;
+    text-transform: capitalize;
+    color: #000000;
 }
 .get {
     position: relative;
-    right: -193px;
+    right: -300px;
+}
+.get h3{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    
+    color: #101010;
 }
 .get a {
     color: #000000;
     text-decoration: none;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    color: #101010;
+}
+.icon1 a {
+ padding: 0 13px 0 0;
+}
+.icon2 a {
+    padding: 0 13px 0 0;
 }
 .we {
     
     position: relative;
-    right: -310px;
+    right: -468px;
 }
+.we h3 {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    color: #101010;
+    }
 .bottom-foot {
     display: inline;
     position: relative;
-    margin: 250px 0 0 170px;
+    margin: 330px 0 0 170px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    color: #101010;
 
 }
