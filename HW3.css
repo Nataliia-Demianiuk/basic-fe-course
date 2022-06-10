@@ -366,7 +366,7 @@ height: 40px;
  
 }
 .column2 p {
-    color: black;
+    color: #687F8C;;
     margin: 0;
     font-family: 'Roboto';
     font-style: normal;
@@ -484,11 +484,11 @@ height: 40px;
     text-decoration: none;
     display: inline-block;
     transition-duration: 0.4s;
-     cursor: pointer;
-     margin: 8px;
-     border: none;
-     color: white;
-     font-family: 'Inter';
+    cursor: pointer;
+    margin: 8px;
+    border: none;
+    color: white;
+    font-family: 'Inter';
     font-style: normal;
     font-weight: 700;
     font-size: 16px;
@@ -506,9 +506,9 @@ height: 40px;
     text-decoration: none;
     display: inline-block;
     transition-duration: 0.4s;
-     cursor: pointer;
-     margin: 8px;
-     border: none;
+    cursor: pointer;
+    margin: 8px;
+    border: none;
 }
 .buttom2 {
     display: flex;
@@ -536,7 +536,7 @@ height: 40px;
     flex-grow: 0;
 }
 .b {
-    font-family: 'SF Pro Text';
+    font-family: 'SF Pro Text'; 
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
@@ -547,6 +547,16 @@ height: 40px;
     align-self: stretch;
     flex-grow: 0;
    
+}
+.b a {
+    text-decoration: none;
+    font-family: 'SF Pro Text';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 17px;
+text-align: center;
+color: #6666FF;
 }
 .buttom2 button {
     width: 64px; height: 33px;
