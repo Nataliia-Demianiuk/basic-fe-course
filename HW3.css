@@ -89,25 +89,28 @@ body {
     background: #2B2627;
     color: white;
     text-align: center;
+    
 }
 .text2{
+    display: flex;
     margin: 0 0 0 24%;
     width: 731px;
-height: 20px;
-
-font-family: 'Inter';
-font-style: normal;
-font-weight: 400;
-font-size: 13px;
-line-height: 20px;
-color: #FFFFFF;
+    height: 20px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 20px;
+    color: #FFFFFF;
 }
+
+
 .our {
     text-decoration-line: underline;  
 }
 .top button {
     width: 9px; height: 6px; background-color: #2B2627; border: none;
-    margin: 12px 0 0 0;
+    margin: 13px 0 0 -29px;
     text-align: center;
     transition-duration: 0.4s;
     cursor: pointer;
@@ -120,17 +123,29 @@ color: #FFFFFF;
     background: #FFFFFF; border-radius: 16px;
     margin: 72px 0 0 24px;
 }
+.image {
+    
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    width: 36px; height: 36px;
+    background: rgba(234, 76, 137, 0.1);
+    border-radius: 10px;
+    margin: 5px 0 0 10px;
+}
+
 .text3 {
     display: inline-flex;
     flex-direction: row;
     align-items: flex-start; 
     margin: 12px 0 0 0;
     font-family: 'Inter';
-font-style: normal;
-font-weight: 400;
-font-size: 12px;
-line-height: 20px;
-    
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 20px;
+    padding: 0 20px 0 20px;
 }
 .text3 p {
     width: 347px;
@@ -142,7 +157,7 @@ height: 40px;
     display: inline-flex;
     flex-direction: row;
     align-items: flex-start; 
-    margin: 16px 10px 0 10px;  
+    margin: 10px;  
     
 }
 .read {
@@ -150,21 +165,31 @@ height: 40px;
 }
 .button1 {
     width: 63px; height: 28px; background-color: rgba (13, 12, 34, 0.05); border: none; 
-    margin: 12px 0 0 -18px;
+    border-radius: 8px;
+    margin: 12px 0 0 -34px;
     text-align: center;
     transition-duration: 0.4s;
     cursor: pointer;  
-    font: 10px 'Roboto', sans-serif;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 20px;
+    color: #0D0C22;
     
 } 
 .button1:hover {
-    width: 63px; height: 28px; background-color: gray; border: none;
+    width: 63px; height: 28px; background-color: gray; border: none; border-radius: 8px;
     color: #FFFFFF;
-    margin: 12px 0 0 -18px;
+    margin: 12px 0 0 -34px;
     text-align: center;
     transition-duration: 0.4s;
     cursor: pointer; 
-    font: 10px 'Roboto', sans-serif; 
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 20px; 
 } 
 .button2 {
     width: 52px; height: 28px; background-color: #EA4C89; border: none; border-radius: 8px;
@@ -172,7 +197,12 @@ height: 40px;
     text-align: center;
     transition-duration: 0.4s;
     cursor: pointer;  
-    font: 10px 'Roboto', sans-serif; color: #FFFFFF;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 20px;
+    color: #FFFFFF;
 }
 .button2:hover {
     width: 52px; height: 28px; background-color: #381523; border: none; border-radius: 8px;
@@ -180,7 +210,12 @@ height: 40px;
     margin: 12px 6px 0 15px;
     text-align: center;
     transition-duration: 0.4s;
-    cursor: pointer;   font: 10px 'Roboto', sans-serif;
+    cursor: pointer;   
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 20px;
 }
 .center2 {
     display: inline-flex;
@@ -197,14 +232,12 @@ height: 40px;
         align-items: flex-start;
         font-size: 11px;
         margin: 0 0 0 20px;
-        width: 469px;
-height: 40px;
-
-font-family: 'Avenir LT Std';
-font-style: normal;
-font-weight: 400;
-font-size: 12px;
-line-height: 20px;
+        width: 469px; height: 40px;
+        font-family: 'Avenir LT Std';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 20px;
 }
 .policy {
     color: orange;
@@ -215,7 +248,11 @@ line-height: 20px;
     text-align: center;
     transition-duration: 0.4s;
     cursor: pointer;   
-    font: 10px 'Roboto', sans-serif;
+    font-family: 'Avenir LT Std';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 20px;
 }
 .button3:hover {
     width: 79px; height: 28px; background-color: gray; border: none; border-radius: 8px;
@@ -223,15 +260,20 @@ line-height: 20px;
     margin: 18px -22px 0 10px;
     text-align: center;
     transition-duration: 0.4s;
-    cursor: pointer;   font: 10px 'Roboto', sans-serif;
+    cursor: pointer;   
+    font-family: 'Avenir LT Std';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 20px;
 }
 .main2 {
     display: flex;
-flex-direction: row;
-align-items: flex-start;
-width: 760px;
-height: 206px;
-font: 10px 'Roboto', sans-serif;
+    flex-direction: row;
+    align-items: flex-start;
+    width: 760px;
+    height: 206px;
+    font: 10px 'Roboto', sans-serif;
 
 }
 .column1 {
@@ -247,7 +289,11 @@ font: 10px 'Roboto', sans-serif;
     background: rgba(28, 37, 64, 0.95);
     border-radius: 6px;
     margin: 72px 0 0 24px; 
-    font: 10px 'Roboto', sans-serif;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
     
  }
  .column2 {
@@ -271,7 +317,7 @@ font: 10px 'Roboto', sans-serif;
      margin:  0;
  }
  .column1 p {
-     font: 14px Roboto;
+     
      color: #FFFFFF;
      
  }
@@ -281,6 +327,12 @@ font: 10px 'Roboto', sans-serif;
  
  .manage {
     display: inline-block;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
  }   
  .column1 button {
      margin: 0 0 0 58px;
@@ -290,6 +342,13 @@ font: 10px 'Roboto', sans-serif;
      transition-duration: 0.4s;
      cursor: pointer;
      color: white;
+     font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+
  }
  .column1 button:hover {
     margin: 0 0 0 58px;
@@ -309,6 +368,11 @@ font: 10px 'Roboto', sans-serif;
 .column2 p {
     color: black;
     margin: 0;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
 }
 .manage {
     margin: 0 0 24px 0;
@@ -317,18 +381,23 @@ font: 10px 'Roboto', sans-serif;
 
 .column2 button {
     text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  transition-duration: 0.4s;
+    text-decoration: none;
+    display: inline-block;
+    transition-duration: 0.4s;
      cursor: pointer;
-     margin: 10px 0 0 0;
+     margin: 0;
      width: 49%;
      
 }
 .button33 {
     display: inline-block;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
     text-align: center;
-    margin: 20px;
+    color: #687F8C;
     
 }
 .button11 {
@@ -345,11 +414,7 @@ font: 10px 'Roboto', sans-serif;
     text-align: center;
     
 }
-.column2 p {
-    margin: 0;
-    font: 14px Roboto;
-     color: black;
-}
+
 .button22 {
     
      width: 160x; height: 32px; background-color: #40C1A7; border: none; border-radius: 6px;
@@ -404,8 +469,8 @@ font: 10px 'Roboto', sans-serif;
     line-height: 24px;
     text-align: center;
     color: #15295A;
-    margin: 0 15px 10px 15px;
-}  
+    margin: 0 15px 10px 15px;    
+}
 
 .buttom1 button {
     display: flex;
@@ -423,6 +488,11 @@ font: 10px 'Roboto', sans-serif;
      margin: 8px;
      border: none;
      color: white;
+     font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
 }
 .buttom1 button:hover {
     display: flex;
@@ -468,14 +538,15 @@ font: 10px 'Roboto', sans-serif;
 .b {
     font-family: 'SF Pro Text';
     font-style: normal;
-    font-weight: 400;
+    font-weight: 500;
     font-size: 14px;
-    line-height: 20px;
+    line-height: 17px;
     color: #000000;
     flex: none;
     order: 0;
     align-self: stretch;
     flex-grow: 0;
+   
 }
 .buttom2 button {
     width: 64px; height: 33px;
