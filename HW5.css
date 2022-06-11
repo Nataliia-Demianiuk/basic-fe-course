@@ -1,0 +1,128 @@
+body {
+    margin: 0px;
+    background: #2f2f2f;
+    height: 100%;
+}
+.wrapper {
+        height: 178px; width: 700px;
+        margin-top: 40px;
+        margin-left: 50px;
+        border: 1px solid #757575;
+        
+        border-radius: 4px;
+        background-color: #2f2f2f;
+        padding: 0px;
+        border-collapse: collapse; 
+    }
+.table {
+    display: inline;    
+    margin: auto;
+    cursor: zoom-in;    
+    background-color: #e6e6e6;
+    margin: 24px 10px 0 10px;
+}
+table {
+    border-collapse: collapse; 
+    border-spacing: 0;
+    }
+.table1 {
+    border-collapse: collapse;  
+    height: 178px;
+    width: 700px; 
+    
+    
+}
+.thead {
+    color: #e7e7e7;
+    text-align:left; 
+    font-size: 14px; 
+    font-family: sans-serif; 
+    border-bottom: 1px solid #757575;    
+}
+.select1 {
+    background:#2f2f2f ;
+    color: #e7e7e7;
+    display: block; 
+    font-size: 14px; 
+    font-family: sans-serif; 
+    background-image: url(icon1/3/caret-down-free-icon-font.png);
+    background-repeat: no-repeat;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    appearance: none;
+    border: none;
+    background-position: right  -0.3000000000000007em top 50%, 0 0;
+
+}
+td   {
+    height: 25px;
+    border-collapse: collapse;
+    border-bottom: 1px solid rgb(110, 110, 110);
+    padding: 5px 10px 5px 10px;
+    
+}
+th {
+    height: 40px;
+    border-collapse: collapse;
+    border-bottom: 1px solid rgb(110, 110, 110);
+    padding: 5px 4px 0 10px;  
+}
+tr {
+    display: table-row;
+    vertical-align: inherit;
+    border-color: inherit;
+}
+.td1 {
+    border-bottom: none;
+}
+.column1 {
+    width: 50%;
+    font: 14px 'Roboto'; color: #c0c0c0;
+    
+}
+.column2 {
+    width: 25%;
+    font: 14px 'Roboto'; color: #6d6d6d;
+}
+.column3 {
+    width: 25%;
+    text-align: right;
+}
+.select2 {
+    padding: 0 0 0 5px;
+    background:#2f2f2f ;
+    color: #e7e7e7;
+   
+    font-size: 14px; 
+    font-family: sans-serif; 
+    background-image: url(icon1/3/caret-down-free-icon-font.png);
+    background-repeat: no-repeat;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    appearance: none;
+    border: none;
+    background-position: right  -0.3000000000000007em top 50%, 0 0;
+    display: inline;
+
+}
+.table1 img {
+    
+    display: inline;
+    width: 11.5px;
+    height: 11px;
+    border-radius: 2px;
+    padding: 0 0 0 4.5px;
+}
+
+.search {
+    display: inline;
+    padding: 8px 0 8px 0;
+    width: 150px; 
+    background: #444444;
+    border-radius: 6px;
+    border: none;
+    background-image:url(icon1/3/search-free-icon-font.png);
+    background-repeat: no-repeat;
+    background-position: 10px;
+    
+}
