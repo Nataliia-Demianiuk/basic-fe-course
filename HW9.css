@@ -122,7 +122,7 @@ top: 665px;
 }
 .block-2h2{
    
-    width: 582px;
+    width: 170px;
     height: 22px;
     font-family: 'Lato';
     font-style: normal;
@@ -368,8 +368,8 @@ color: #333333;
     display: flex;
     position: relative;
     top: 168px;
-    width: 1670px;
-    left: -176px;
+    width: 1440px;
+    /* left: -176px; */
     gap: 36px;
     
 }
@@ -383,6 +383,17 @@ color: #333333;
     border: 1px solid #828282;
     border-radius: 4px;
     padding: 15px;
+    
+}
+.comments-1{
+    width: 180px;
+}
+.comments-5 {
+    width: 183px;
+}
+
+.comments-3 .gradient{
+    display: none;
     
 }
 .comments h3 {
@@ -410,20 +421,33 @@ font-size: 14px;
 line-height: 18px;
 color: #4F4F4F;
 }
+.comments-5 p{
+    overflow: hidden;
+    width: 170px;
+}
+.comments-1 p{
+    overflow: hidden;
+    width: 160px;
+}
+.comments-1 svg{
+    position: absolute;
+    margin-left: 134px;
+    margin-top: -33px
+}
 .gradient {
     position: relative;
-    width: 309px;
-    height: 161px;
-    top: -152px;
-    left: -20px;
+    width: 183px;
+    height: 164px;
+    top: -171px;
+    left: -15px;
     background: linear-gradient(270deg, #FFFFFF 49.84%, rgba(255, 255, 255, 0) 126.7%);
 }
 .gradient-1 {
     position: relative;
-    width: 309px;
+    width: 190px;
     height: 161px;
-    top: -152px;
-    left: -10px;
+    top: -150px;
+    left: -17px;
     background: linear-gradient(92deg, #FFFFFF 49.84%, rgba(255, 255, 255, 0) 126.7%); 
 }
 .svg-left {
@@ -581,7 +605,7 @@ footer a{
     header {
        /* width: 720px;
      height: 525px; */
-     max-width: 700px;
+     max-width: 720px;
      height: 525px;
    
     margin-top: 3.81%;
@@ -645,6 +669,10 @@ footer a{
         top: 993px;
         max-width: 720px;
     }
+    .img1 {
+        max-width: 720px;
+    }
+
     .img1 img {
         position: absolute;
         top: 993px;
@@ -678,8 +706,10 @@ footer a{
         left: 260px;
     }
     #section-2 {
-        top: 1530px;
-        width: 720px;
+        top: 1536px;
+    width: 720px;
+    overflow: hidden;
+    height: 1100px;
     }
     .block-3 {
         width: 720px;
@@ -697,7 +727,7 @@ footer a{
     #section-2 img{
         
         top: 392px;
-        left: -703px;
+        left: -665px;
     
     }
     #section-3 {
@@ -827,8 +857,43 @@ footer a{
         top: 22px;
     }
     .comments{
-        width: 896px;
+        width: 720px;
         overflow: hidden;
+    }
+    .comments-1{
+        width: 170px;
+    }
+    .comments-1 p{
+        width: 150px;
+    }
+    .comments-1 svg {
+        margin-left: 124px;
+    }
+    .comments-3 {
+        
+        width: 168px;
+
+    }
+    .comments-3 .gradient {
+        display: block;
+    position: relative;
+    width: 160px;
+    height: 162px;
+    top: -152px;
+    left: -6px;
+        background: linear-gradient(270deg, #FFFFFF 49.84%, rgba(255, 255, 255, 0) 126.7%);
+    }
+    .comments-3 h3{
+        display: none;
+    }
+    .comments-3 svg {
+        display: none;
+    }
+    .comments-4, .comments-5 {
+        display: none;
+    }
+    .comments-3 p{
+         width: 150px;
     }
     .svg-right {
         left: 551px;
@@ -946,7 +1011,7 @@ footer a{
         }
         .block-1{
             position: absolute;
-            width: 388px;
+            width: 360px;
             height: 360px;
         }
         .img1 {
@@ -983,12 +1048,12 @@ footer a{
         .img3 {
             width: 314.21000000000004px;
             height: 216.58px;
-            left: -13px;
+            left: -31px;
         }
         .img2 {
             width: 247.21px;
             height: 149.58px;
-            left: 112px;
+            left: 93px;
             top: 163px;
         }
         #section-1{
@@ -997,6 +1062,8 @@ footer a{
         #section-2 {
             top: 1353px;
             width: 360px;
+            height: 997px;
+            overflow: hidden;
         }
         .block-3 {
             width: 360px;
@@ -1063,8 +1130,20 @@ footer a{
             display: none;
         }
         .comments-3{
-            max-width: 360px;
+            width: 360px;
             margin-left: 20px;
+        }
+        .comments-3 .gradient {
+            display: none;
+        }
+        .comments-3 p {
+            width: 246px;
+        }
+        .comments-3 h3 {
+            display: block;
+        }
+        .comments-3 svg {
+            display: block;
         }
         .svg-circle {
             max-width: 360px;
