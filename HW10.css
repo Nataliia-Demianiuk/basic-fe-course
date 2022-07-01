@@ -104,7 +104,7 @@
     height: 40px;
     border-radius: 50px;
     border: none;
-    box-shadow:  0px 65px 13px 0px rgb(158 158 158);
+    box-shadow:  0px 65px 13px -10px rgb(158 158 158);
 
 }
    
@@ -119,7 +119,7 @@
 .circle-1 {
     left: 0px;
     top: 0;    
-    background: #2E4F6D;
+    background: linear-gradient(to right, #3C4D63, #2A4F6A);
     animation-name: circle1;
     animation-direction: alternate-reverse;
     animation-duration: 0.45s;
@@ -153,23 +153,23 @@
 }
 
 .circle-2 {
-    background: #364B64;
+    background: linear-gradient(to right, #324B68, #3E4962);
 }
 
 .circle-3 {
-    background: #544553;
+    background: linear-gradient(to right, #43485D, #5C434F);
 }
 .circle-4 {
-    background: #7A3E42;
+    background: linear-gradient(to right, #6E4149, #853D3E);
 }
 .circle-5 {
-    background: #A03A34;
+    background: linear-gradient(to right, #933B39, #AD3830);
 }
 .circle-6 {
-    background: #C73427;
+    background: linear-gradient(to right, #BC3728, #CD3322);
 }
 .circle-7 {
-    background: #D23522;
+    background: linear-gradient(to right, #D53325, #D53725);
     animation-name: circle7;
     animation-direction: alternate-reverse;
     animation-duration: 0.45s;
