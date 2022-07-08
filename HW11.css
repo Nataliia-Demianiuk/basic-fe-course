@@ -1,0 +1,274 @@
+.head {
+    display: flex;    
+    height: 70px; 
+       
+    
+}
+header {
+    border-bottom:  1px solid #d4cbcb;
+}
+.logo {
+    margin-top: -18px;
+}
+.search {
+    margin-top: 16px;
+    margin-left: 16%;
+    border: 1px solid #d4cbcb;
+    border-radius: 5px;
+    outline: none;
+
+}  
+
+
+.search::placeholder {
+    background-image: url(icon1/11/search-free-icon-font.png);
+    background-size: 10px;
+    background-repeat: no-repeat;
+    background-position-x: 55px;
+    background-position-y: 7.5px;
+    border-radius: 5px;
+    outline: none;
+}  
+
+.child3-link{
+    width: 174px;
+    margin-top: 16px;
+   
+}
+.child3-link a {
+    margin-left: 10px;
+    
+}
+.link {
+    text-decoration: none;
+    }
+
+.avatar {
+    height: 150px;
+    width: 150px;
+   
+}
+.main-avatar{
+    width: 154px;
+    height: 154px;
+    margin-top: 65px;
+    margin-left: auto;
+    
+}
+
+.block-1 {
+    justify-content: center;
+    display: block;   
+    max-width: 1040px;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.main {
+    height: 40px;
+    display: flex;
+    margin-top: 36px;
+    padding-left: 75px;
+}
+.another {
+    
+    fill: #424040;
+}
+
+.main1 {
+    height: 40px;
+    display: flex;
+    margin-top: 28px;
+    padding-left: 75px;
+    gap: 40px;
+}
+.followers {
+    display: flex;
+    gap: 5px;
+}
+.followers span {
+    font-weight: 700;
+}
+.followers p {
+    font-weight: 400;  
+}
+.main2 {
+    width: 100%;
+    margin-top: 28px;
+    padding-left: 75px; 
+}
+.main2 p {
+    
+    font-weight: 300;
+    margin: 0;
+}
+.saved-1 {
+    display: flex;
+    justify-content: end;
+}
+
+.saved img{
+    width: 70px;
+    height: 70px;
+}
+.saved h6 {
+        margin-top: 8px;
+        margin-left: 14px;
+        font-weight: 400;
+}
+.navbar-1 {
+    border-top: 1px solid #d4cbcb;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+}
+.btn-2 {
+    border: none;
+}
+.svg-post{
+    fill: gray;
+    margin-top: -3px;
+    margin-left: 3px;
+    margin-right: 3px;
+}
+
+.nav-tabs {
+    
+    border-bottom: none;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.block {
+    display: flex;
+    
+}
+
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+    color: #262626;
+    background-color: #FAFAFA;
+    border-top: 1px solid #000(200, 66, 66);
+    border-radius: 0px;
+    outline: none;
+}
+.nav-tabs .nav-link:focus, .nav-tabs .nav-link:hover {
+    border: none;
+    border-top: 1px solid rgb(72, 70, 70);
+    border-radius: 0px;
+}
+.nav-tabs .nav-link:focus-visible{
+    border: none;
+}
+
+
+.tagged-img {
+    padding-left: 10px;
+    padding-bottom: 10px;
+}
+@media (max-width:960px) {
+    .post-img{
+        width: 250px;
+        height: 250px;  
+    }
+
+    .posts11 {
+        gap: 10px;
+        width: 250px;
+        height: 250px;
+    }
+}
+@media (max-width:768px) {
+    button, input, optgroup, select, textarea {
+        margin: -4px;}
+        .search {
+            width: 170px;
+            margin-left: 0;
+        }
+        .child3-link {
+            margin-left: 0;
+        }
+        .col-6 {
+            display: flex;
+            left: 186px;
+        }
+        .button {
+        
+            display: flex;
+        }
+        .button {
+            
+            display: flex;
+        }
+        .main a {
+            margin-left: 3vw;
+        }
+        .main  {
+        width: 400px;
+        }
+        .post {
+            position: absolute;
+            top: 640px;
+            margin-left: 50px;
+        }
+        .post-img{
+            width: 200px;
+            height: 200px;  
+        }
+        .posts11 {
+            
+            width: 200px;
+            height: 200px;
+        }
+}
+
+@media (max-width:630px) {
+    .head {
+        display: block;
+        height: 175px;
+    }
+    .search {
+        width: 170px;
+        margin-left: 132px;
+        margin-top: -59px;
+    }
+    .child3-link {
+        margin-left: 46px;
+    }
+    .logo {
+        height: 88px;
+        margin-top: -9px;
+        margin-left: 169px;
+    }
+    .posts11 {       
+        width: 180px;
+        height: 180px;
+    }
+    .post-img{
+        width: 180px;
+        height: 180px;  
+    }
+    .main2 {
+        width: 377px;}
+        .main1 {
+            gap: 15px;
+        }
+}
+@media (max-width:450px) {
+   
+    .posts11 {       
+        width: 120px;
+        height: 120px;
+    }
+    .post-img{
+        width: 120px;
+        height: 120px;  
+    }
+    .navbar-1 {
+       margin-left: 76px;
+    }
+    .navbar {
+        margin-left: 90px;
+    }
+}
